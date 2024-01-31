@@ -1,13 +1,13 @@
 # social-net-front
-aplicación de red social que permita a los usuarios registrarse, iniciar sesión, publicar mensajes, ver el muro, buscar mensajes, gestionar su perfil y realizar acciones adicionales.
 
-# Proyecto Angular 17
-
-Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 17.0.0.
 
 ## Descripción
 
-Este proyecto es un ejemplo de una aplicación web desarrollada con Angular 17. Incluye una estructura básica y algunos ejemplos de componentes y servicios.
+
+aplicación de red social que permita a los usuarios registrarse, iniciar sesión, publicar mensajes, ver el muro, buscar mensajes, gestionar su perfil y realizar acciones adicionales.
+
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 17.0.0.
+
 
 ## Requisitos previos
 
