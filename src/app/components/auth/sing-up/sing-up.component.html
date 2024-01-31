@@ -1,0 +1,50 @@
+<mat-card>
+  <mat-card-title><h2>Crea tu cuenta</h2></mat-card-title>
+  <mat-card-subtitle>Diligencia el siguiente formulario</mat-card-subtitle>
+    <mat-card-content>
+      <form (ngSubmit)="onSubmit()">
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Nombre completo</mat-label>
+              <input matInput placeholder="Email" (ngModel)="user.fullName" name="username" required>
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Hint</mat-hint>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label>Edad</mat-label>
+              <input matInput placeholder="Edad" (ngModel)="user.age" name="age" type="number" required>
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Hint</mat-hint>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Email" (ngModel)="user.email" name="email" required>
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Hint</mat-hint>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label>Password</mat-label>
+              <input matInput placeholder="Password" (ngModel)="user.password" name="password" required>
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Hint</mat-hint>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="outline">
+              <mat-label>Confirma tu password</mat-label>
+              <input matInput placeholder="Confirma password" (ngModel)="passwordVerification" name="passwordVerification" type="password" required>
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Hint</mat-hint>
+            </mat-form-field>
+          </p>
+          <button mat-raised-button color="primary">Login</button>
+          
+      </form>
+    </mat-card-content>
+  </mat-card>
